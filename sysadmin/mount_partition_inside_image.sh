@@ -32,3 +32,11 @@ fdisk --list "$IMAGE" | \
       show=1
     }'
 
+
+
+# losetup --read-only
+
+# losetup --partscan not tried yet
+
+
+# https://askubuntu.com/questions/69363/mount-single-partition-from-image-of-entire-disk-device
