@@ -1,0 +1,23 @@
+[.git/config]
+   [core]
+      repositoryformatversion = 0
+      filemode = true
+      bare = false
+      logallrefupdates = true
+   [remote "origin"]
+      url = ssh://git@loquesea.com:XXXX/project/shadow_it.git
+      fetch = +refs/heads/*:refs/remotes/origin/*
+   [branch "master"]
+      remote = origin
+      merge = refs/heads/master
+[~/.ssh/config]
+   Host loquesea.com
+      HostName loquesea.com
+      Port XXXX
+      User git
+      IdentityFile "~/.ssh/id_rsa"
+      ProxyCommand corkscrew proxy.XXXXXX 8080 %h %p ~/.ssh/.corkscrew-auth
+      TCPKeepAlive yes
+      IdentitiesOnly yes
+   [~/.ssh/.corkscrew-auth]
+       user:pass
