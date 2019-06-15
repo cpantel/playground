@@ -1,0 +1,12 @@
+Se compilo y ejecuto un algoritmo que asigna 0 e incrementa en uno cada posicion de un array de 2 dimensiones, tanto en c como en fortran, cambiando el orden de lectura de filas y columnas. La intención es demostrar el efecto del cache sobre el tiempo de ejecución.
+
+fortran i j 0.096
+fortran j i 0.063
+
+c       i j 0.049
+c       j i 0.099
+
+gfortran-4.3 main.f90 -o f90
+
+
+cat xxx.txt | grep -e real | cut -b8-12 | awk "BEGIN{c=0; a=0} // {a=a+\$1; c++} END{print a/c}"

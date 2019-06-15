@@ -1,0 +1,101 @@
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.100s
+user	0m0.079s
+sys	0m0.014s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.097s
+user	0m0.073s
+sys	0m0.016s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.106s
+user	0m0.074s
+sys	0m0.015s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.098s
+user	0m0.074s
+sys	0m0.013s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.102s
+user	0m0.071s
+sys	0m0.017s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.100s
+user	0m0.069s
+sys	0m0.019s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.100s
+user	0m0.071s
+sys	0m0.017s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.099s
+user	0m0.074s
+sys	0m0.012s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.098s
+user	0m0.070s
+sys	0m0.020s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.099s
+user	0m0.073s
+sys	0m0.016s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.097s
+user	0m0.073s
+sys	0m0.015s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.099s
+user	0m0.077s
+sys	0m0.013s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.097s
+user	0m0.074s
+sys	0m0.014s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.099s
+user	0m0.074s
+sys	0m0.015s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.092s
+user	0m0.076s
+sys	0m0.014s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.098s
+user	0m0.075s
+sys	0m0.014s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.099s
+user	0m0.077s
+sys	0m0.012s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.103s
+user	0m0.076s
+sys	0m0.010s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.102s
+user	0m0.073s
+sys	0m0.017s
+[charly@localhost c_vs_fortran]$ time ./run 
+
+real	0m0.100s
+user	0m0.076s
+sys	0m0.013s
+
