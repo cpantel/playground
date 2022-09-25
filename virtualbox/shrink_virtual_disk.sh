@@ -3,10 +3,11 @@
 # remove all the crap like 
 #   gstreamer*
 #   thunderbird*
-#    apt-get clean
 
 
-sudo apt-get install zerofree
+sudo apt clean
+
+sudo apt install zerofree
 
 # GRUB steps:
 # reboot
@@ -21,6 +22,11 @@ sudo apt-get install zerofree
    zerofree /dev/sda1
    shutdown -h now
 
+# si falla mount por mountpoint busy
+# /etc/fstab -> noatime,ro
+# por algún motivo, en ubuntu 20.0.4 en rescue mode / está read write
+
+ 
 
 # useful post command or actions
 
