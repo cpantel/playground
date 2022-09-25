@@ -14,7 +14,9 @@ sudo apt-get install zerofree
 # advanced options
 # recovery mode
 
-#root
+#root drop to root shell prompt
+   systemctl stop systemd-journald.socket
+   systemctl stop systemd-journald.service
    mount -n -o remount,ro -t ext4 /dev/sda1 /
    zerofree /dev/sda1
    shutdown -h now
